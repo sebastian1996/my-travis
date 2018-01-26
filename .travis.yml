@@ -4,5 +4,9 @@ php:
 
 script: phpunit Tests/MiTestCase.php
 
-install:
-  - "composer install"
+deploy:
+  provider: heroku
+  api_key: 4590393c-b8de-498d-8e08-410d7b54b84f
+  app: travis-ci-app
+  run: 
+    - "composer install"
