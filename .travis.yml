@@ -6,5 +6,6 @@ script: phpunit Tests/MiTestCase.php
 
 deploy:
   provider: heroku
+  api_key: 4590393c-b8de-498d-8e08-410d7b54b84f
   run: 
     - "composer install"
