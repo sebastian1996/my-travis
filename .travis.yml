@@ -7,6 +7,6 @@ script: phpunit Tests/MiTestCase.php
 deploy:
   provider: heroku
   api_key: 4590393c-b8de-498d-8e08-410d7b54b84f
-  app: travis-ci-app
+  app: travis-ci-app2
   run: 
     - "composer install --no-dev --prefer-dist --optimize-autoloader --no-interaction"
